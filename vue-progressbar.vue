@@ -12,7 +12,7 @@
 const inBrowser = typeof window !== 'undefined'
 export default {
     name: 'VueProgress',
-    serverCacheKey: () => 'Progress',
+    serverCacheKey: () => { 'Progress' },
     computed: {
         style () {
             let location = this.progress.options.location
